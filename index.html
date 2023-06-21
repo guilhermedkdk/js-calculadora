@@ -12,7 +12,7 @@
     />
     <title>Calculadora JS</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="./script.js" defer></script>
+    <script src="./src/script.js" type="module" defer></script>
   </head>
   <body>
     <main data-theme="dark">
@@ -23,24 +23,24 @@
       <input type="text" id="input" />
       <div id="keys">
         <button id="clear">C</button>
-        <button class="charKey" data-value=" ( ">(</button>
-        <button class="charKey" data-value=" ) ">)</button>
-        <button class="charKey" data-value=" / ">/</button>
+        <button class="charKey" data-value="(">(</button>
+        <button class="charKey" data-value=")">)</button>
+        <button class="charKey" data-value="/">/</button>
         <button class="charKey" data-value="7">7</button>
         <button class="charKey" data-value="8">8</button>
         <button class="charKey" data-value="9">9</button>
-        <button class="charKey" data-value=" * ">*</button>
+        <button class="charKey" data-value="*">*</button>
         <button class="charKey" data-value="4">4</button>
         <button class="charKey" data-value="5">5</button>
         <button class="charKey" data-value="6">6</button>
-        <button class="charKey" data-value=" - ">-</button>
+        <button class="charKey" data-value="-">-</button>
         <button class="charKey" data-value="1">1</button>
         <button class="charKey" data-value="2">2</button>
         <button class="charKey" data-value="3">3</button>
-        <button class="charKey" data-value=" + ">+</button>
+        <button class="charKey" data-value="+">+</button>
         <button class="charKey" data-value="0">0</button>
         <button class="charKey" data-value=".">.</button>
-        <button class="charKey" data-value=" % ">mod</button>
+        <button class="charKey" data-value="%">mod</button>
         <button id="equal">=</button>
       </div>
       <section class="flex align-center justify-between">
